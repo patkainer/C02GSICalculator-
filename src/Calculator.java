@@ -35,7 +35,23 @@ public class Calculator {
     public static int div(int a, int b )
     {
 
-        return a / b;
+
+        if(b != 0) {
+            int erg=  a / b;
+            return  erg;
+        }
+        else if (a ==1 || b==1)
+        {
+            return 1 ;
+        }
+        else
+        {
+            System.out.println("Division mit null nicht möglich " );
+            return 0;
+        }
+
+
+
     }
     public static int mul(int a, int b )
     {
