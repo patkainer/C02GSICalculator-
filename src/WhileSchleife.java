@@ -8,5 +8,9 @@ public class WhileSchleife {
             count += 2;
             System.out.println("count = " + count);
         }
+        for(int i = 0; i<=input;i+=2)
+        {
+            System.out.println("i = " + i);
+        }
     }
 }
