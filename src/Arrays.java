@@ -7,6 +7,7 @@ public class Arrays {
         for (int j = 0; j < 24; j++) {
 
             System.out.println("i[j] = " + i[j]);
+            //Bier
             
         }
     }
